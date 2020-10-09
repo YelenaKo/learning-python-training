@@ -13,7 +13,7 @@ _[ # loops ](#loops)_
 - ### variables: 
   - declaring and re-declaring
   - local and global variables in functions  
-> `f=0`, `f="abc"`, `global f`
+  `f=0`, `f="abc"`, `global f`
 
 - ### functions:
   - basic function `def func():`
