@@ -21,17 +21,17 @@ _[ # loops ](#loops)_
   - with default value for an argument `def func(num, x=1):`
   - with variable number of arguments `def func(*args):`
 
-```
-def power(num, x=1):
-    result = 1
-    for i in range(x):
-        result = result * num
-    return result
+  ```
+  def power(num, x=1):
+      result = 1
+      for i in range(x):
+         result = result * num
+      return result
     
-print (power(2))            # 2
-print (power(2, 3))         # 8
-print (power(x=3, num=2))   # 8    
-```   
+  print (power(2))            # 2
+  print (power(2, 3))         # 8
+  print (power(x=3, num=2))   # 8    
+  ```   
 - ### conditional statements:  
   - conditional statements  "a **if** C **else** b" 
   ```
