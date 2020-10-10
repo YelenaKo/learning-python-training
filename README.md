@@ -54,37 +54,37 @@ _[ # loops ](#loops)_
 - ### loops:
   - while 
   ```  
-  while ( x<5 ):  # 0, 1, 2, 3, 4
+  while ( x<5 ):
     print (x)
-    x = x+1
+    x = x+1                         # 0, 1, 2, 3, 4
   ```  
   - for
-  ```
-    for x in range(5, 10):  # 5, 6, 7, 8, 9
-      print(x)
+  ``` 
+    for x in range(5, 10):         
+      print(x)                      # 5, 6, 7, 8, 9
   ```
   - over a collection
   ```
-    days=["Mon","Tue","Wed"]  # Mon, Tue, Wed
+    days=["Mon","Tue","Wed"]
     for d in days :
-      print (d)
+      print (d)                     # Mon, Tue, Wed
   ```
   - break and continue statements
   ```
-    for x in range (5, 10):  
-      if ( x==7): break   # 5, 6
-      print (x)
+    for x in range (5, 10):
+      if ( x==7): break
+      print (x)                      # 5, 6
   ```
   ```
-    for x in range (5, 10):  
-      if ( x % 2 == 0 ): continue #5, 7, 9
-      print (x)
+    for x in range (5, 10): 
+      if ( x % 2 == 0 ): continue
+      print (x)                      #5, 7, 9
   ```
   - enumerate() function to get index
-  ```
-    days=["Mon","Tue","Wed"]  
+  ``` 
+    days=["Mon","Tue","Wed"]
     for i, d in enumerate(days) :
-      print (i, d) # 0 Mon, 1 Tue, 2 Wed
+      print (i, d)                   # 0 Mon, 1 Tue, 2 Wed
   ```
 
 
