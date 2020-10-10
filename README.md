@@ -65,7 +65,7 @@ _[ # loops ](#loops)_
   ```
   - over a collection
   ```
-    days=["Mon","Tue","Wed"]  
+    days=["Mon","Tue","Wed"]  # Mon, Tue, Wed
     for d in days :
       print (d)
   ```
@@ -82,9 +82,9 @@ _[ # loops ](#loops)_
   ```
   - enumerate() function to get index
   ```
-    days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]  
+    days=["Mon","Tue","Wed"]  
     for i, d in enumerate(days) :
-      print (i, d) # 0 Mon, 1 Tue, 2 Wed...
+      print (i, d) # 0 Mon, 1 Tue, 2 Wed
   ```
 
 
